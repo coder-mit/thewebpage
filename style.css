@@ -1,0 +1,129 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#container{
+	width:1300px;
+	margin:0px auto;
+}
+	#header{
+		width:1300px;
+	}
+	#header h2{
+		color:brown;
+		padding:15px;
+		background:none;
+		border:1px solid brown;
+		margin-bottom:3px;
+		font-size:30px;
+	}
+	#head-nav{
+		background:brown;
+		width:1300px;
+	}
+		#head-nav ul li{
+			width:325px;
+			float:left;
+			list-style:none;
+			font-size:14px;
+			color:white;
+			font-family:arial;
+			padding:15px 0px;
+			text-align:center;
+		}
+		#head-nav li:hover{
+			color:brown;
+			background:white;
+		}
+	#middle{
+		width:1300px;
+	}
+		#left{
+			width:975px;
+			height:600px;
+			float:left;
+		}
+			#grouppost{
+				margin-top:42px;
+			}
+				.post{
+					background:#f1f1f1;
+					margin:20px;
+				}
+					.head{
+						color:white;
+						background:brown;
+						padding:10px;
+						text-weight:100px;
+					}
+					.content{
+						padding:20px;
+						color:black;
+						font-family:arial;
+						font-size:20px;
+					}
+						.content a{
+							color:blue;
+						}
+		#RG{
+			margin:40px 0px;
+		}
+		#right{
+			background:none;
+			width:325px;
+			float:left;
+		}
+			#LP{
+				color:brown;
+				text-align:center;
+				padding:25px 0px 0px 0px;
+				border-bottom:1px solid brown;
+			}
+			.posts{
+				color:white;
+				background:brown;
+				text-align:center;
+				padding:10px 0px;
+				margin:10px 0px;
+			}
+			#sub{
+				color:brown;
+				text-align:center;
+				margin:15px 0px 5px 0px;
+			}
+			input[type="text"]{
+				width:300px;
+				height:20px;
+				margin:10px;
+				
+				border-bottom:1px solid brown;
+			}
+			input[type="text"]:hover{
+				border-bottom:2px solid brown;
+			}
+			input[type="submit"]{
+				width:300px;
+				height:35px;
+				margin:5px 12px 5px 12px;
+				border:none;
+				background:brown;
+				color:white;
+				font-family:arial;
+				font-size:15px;
+				text-transform:uppercase;
+			}
+			input[type="submit"]:hover{
+				color:brown;
+				background:none;
+			}
+	#footer{
+		background:brown;
+		width:1300px;
+		font-family:times-new-roman;
+		color:white;
+		text-align:center;
+		padding:5px 0px;
+	}
+	#footer a{
+		color:white;
+	}
